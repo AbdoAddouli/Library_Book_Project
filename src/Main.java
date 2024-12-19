@@ -9,6 +9,15 @@ public class Main {
 
         //Display books
         library.displayBooks();
+
+        // Search for a book
+        library.searchBook("Harper");
+
+        // Remove a book
+        library.removeBook("9780060935467");
+        
+        // Display books again
+        library.displayBooks();
         
     }
 }
